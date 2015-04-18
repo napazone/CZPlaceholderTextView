@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'CZPlaceholderTextView', :exclusive => true do
+  pod "CZPlaceholderTextView", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "CZPlaceholderTextView", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
