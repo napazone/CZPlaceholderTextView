@@ -14,14 +14,14 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* CZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* CZAppDelegate.m */; };
-		6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F59F195388D20070C39A /* Main_iPhone.storyboard */; };
+		6003F5A1195388D20070C39A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F59F195388D20070C39A /* Main.storyboard */; };
 		6003F5A7195388D20070C39A /* CZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* CZViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6003F5BC195388D20070C39A /* CZPlaceholderTextViewSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* CZPlaceholderTextViewSpec.m */; };
 		75E5127675D6C8AEFEEEAA5A /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393462B79A93603E8A008526 /* libPods-Tests.a */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +51,7 @@
 		6003F59B195388D20070C39A /* CZPlaceholderTextView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CZPlaceholderTextView-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* CZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* CZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A0195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		6003F5A0195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* CZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* CZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* CZPlaceholderTextViewSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZPlaceholderTextViewSpec.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		7157F0209A47C05D51D5E399 /* libPods-CZPlaceholderTextView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CZPlaceholderTextView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B2455BF92128DE52CCCB5C /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,12 +107,12 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* CZPlaceholderTextView */,
-				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
-				6003F58B195388D20070C39A /* Products */,
 				4FDFB0A0CCE11B5413C00CDF /* Pods */,
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F58B195388D20070C39A /* Products */,
+				6003F5B5195388D20070C39A /* Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,12 +128,12 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
-				6003F591195388D20070C39A /* UIKit.framework */,
-				6003F5AF195388D20070C39A /* XCTest.framework */,
+				6003F58D195388D20070C39A /* Foundation.framework */,
 				7157F0209A47C05D51D5E399 /* libPods-CZPlaceholderTextView.a */,
 				393462B79A93603E8A008526 /* libPods-Tests.a */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,10 +143,10 @@
 			children = (
 				6003F59C195388D20070C39A /* CZAppDelegate.h */,
 				6003F59D195388D20070C39A /* CZAppDelegate.m */,
-				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
 				6003F5A5195388D20070C39A /* CZViewController.h */,
 				6003F5A6195388D20070C39A /* CZViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F59F195388D20070C39A /* Main.storyboard */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			path = CZPlaceholderTextView;
@@ -156,9 +156,9 @@
 			isa = PBXGroup;
 			children = (
 				6003F595195388D20070C39A /* CZPlaceholderTextView-Info.plist */,
+				6003F59B195388D20070C39A /* CZPlaceholderTextView-Prefix.pch */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* CZPlaceholderTextView-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5BB195388D20070C39A /* CZPlaceholderTextViewSpec.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -175,8 +175,8 @@
 		6003F5B6195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5B7195388D20070C39A /* Tests-Info.plist */,
 				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
 				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -186,8 +186,8 @@
 			isa = PBXGroup;
 			children = (
 				2F25113ED1AE7F0E2B851252 /* CZPlaceholderTextView.podspec */,
-				1D65AB3EDCFB0A690D0D0533 /* README.md */,
 				D2AB44538A31FFEF8981478B /* LICENSE */,
+				1D65AB3EDCFB0A690D0D0533 /* README.md */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -243,11 +243,6 @@
 				CLASSPREFIX = CZ;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Care Zone Inc.";
-				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
-					};
-				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "CZPlaceholderTextView" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -274,7 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
+				6003F5A1195388D20070C39A /* Main.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,7 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				6003F5BC195388D20070C39A /* CZPlaceholderTextViewSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,12 +385,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		6003F59F195388D20070C39A /* Main_iPhone.storyboard */ = {
+		6003F59F195388D20070C39A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6003F5A0195388D20070C39A /* Base */,
 			);
-			name = Main_iPhone.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
@@ -513,7 +508,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81B2455BF92128DE52CCCB5C /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CZPlaceholderTextView.app/CZPlaceholderTextView";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -527,7 +521,6 @@
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -536,7 +529,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5412F66FF1CE5162770D2EEA /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CZPlaceholderTextView.app/CZPlaceholderTextView";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -546,7 +538,6 @@
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;

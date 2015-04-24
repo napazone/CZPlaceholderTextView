@@ -7,4 +7,5 @@
 //
 
 @interface CZPlaceholderTextView : UITextView
+@property(nonatomic,copy) NSString *placeholder;
 @end
