@@ -1,6 +1,6 @@
 # CZPlaceholderTextView
 
-[![CI Status](http://img.shields.io/travis/CareZone/CZPlaceholderTextView.svg?style=flat)](https://travis-ci.org/CareZone/CZPlaceholderTextView)
+[![Build Status](https://travis-ci.org/carezone/CZPlaceholderTextView.svg?branch=master)](https://travis-ci.org/carezone/CZPlaceholderTextView)
 [![Version](https://img.shields.io/cocoapods/v/CZPlaceholderTextView.svg?style=flat)](http://cocoapods.org/pods/CZPlaceholderTextView)
 [![License](https://img.shields.io/cocoapods/l/CZPlaceholderTextView.svg?style=flat)](http://cocoapods.org/pods/CZPlaceholderTextView)
 [![Platform](https://img.shields.io/cocoapods/p/CZPlaceholderTextView.svg?style=flat)](http://cocoapods.org/pods/CZPlaceholderTextView)
